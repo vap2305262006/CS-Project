@@ -1,18 +1,23 @@
 #home-button{background-color: hwb(199 12% 58%);
 color: white;
-width: 100px;
-height: 200px;
-border-radius: 10%;}
+text-align: center;
+width: 200px ;
+height:30px;
+border-end-end-radius: 30%;}
 h2{text-align: center;
 color:hwb(199 12% 58%);}
 li{text-decoration: none;
 color: black;
 width: 300px;
-margin:50px;}
+margin:50px;
+display: inline;}
+.center{margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
 a{text-decoration: none;
-color: black;}
-.navbar{display: inline;
-text-decoration: none;}
+color: black;
+}
 #account{
     color:white;
     background-color: hwb(199 12% 58%);
