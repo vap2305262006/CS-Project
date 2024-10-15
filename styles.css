@@ -1,0 +1,23 @@
+#home-button{background-color: hwb(199 12% 58%);
+color: white;
+width: 100px;
+height: 200px;
+border-radius: 10%;}
+h2{text-align: center;}
+li{text-decoration: none;
+color: black;
+width: 300px;
+margin:50px;}
+a{text-decoration: none;
+color: black;}
+.navbar{display: inline;
+text-decoration: none;}
+#account{
+    color:white;
+    background-color: hwb(199 12% 58%);
+   height: 50px;
+   width: 50px;
+   text-align: center;
+    border-radius: 20%;
+    text-decoration: none;
+}
