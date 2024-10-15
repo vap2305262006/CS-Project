@@ -5,14 +5,20 @@ width: 200px ;
 height:30px;
 border-end-end-radius: 30%;}
 h2{text-align: center;
-color:hwb(199 12% 58%);}
+color:black;
+}
 li{text-decoration: none;
 color: black;
 width: 300px;
 margin:50px;
 display: inline;}
-.center{margin-left: auto;
-    margin-right: auto;
+.createmiddle{margin:0 auto;
+    display: block;
+    padding: 1%;
+    text-align: center;
+}
+.centerimg{
+    margin: 0 auto;
     width: 65%;
 }
 a{text-decoration: none;
