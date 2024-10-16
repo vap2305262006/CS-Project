@@ -1,0 +1,15 @@
+#home-button{background-color: hwb(199 12% 58%);
+    color: white;
+    text-align: center;
+    width: 200px ;
+    height:30px;
+    border-end-end-radius: 30%;}
+    h2{text-align: center;
+    color:black;
+    }
+    li{text-decoration: none;
+    color: black;
+    width: 300px;
+    margin:50px;
+    display: inline;
+    background-position: center;}
