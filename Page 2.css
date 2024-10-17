@@ -20,3 +20,16 @@
         text-decoration: none;
         color: black;
     }
+
+    .Flashcards{
+        padding-left: 40px;
+    }
+
+    .bottom-border-line{
+        border-bottom: solid;
+        color: grey;
+        border-width: 2px;
+        width: 100%;
+    }
+
+   
