@@ -42,9 +42,23 @@
     margin-left: 40px;
     height: 300px;
     width: 275px;
+    border-color: rgba(230, 230, 230, 100);
+    background-color: rgba(250, 250, 245, 100);
 }
 
 .Flashcard-Title{
     padding-left: 10px;
     line-height: 1px;
+}
+
+.Flashcard-Sub-Title{
+    padding-left: 10px;
+    line-height: 1px;
+    color: rgba(66, 107, 31, 100);
+}
+
+.Flashcard-Class-Title{
+    padding-left: 10px;
+    line-height: 1px;
+    color: rgba(109, 109, 109, 100);
 }
