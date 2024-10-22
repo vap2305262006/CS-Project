@@ -1,37 +1,42 @@
-#home-button{
-    background-color: hwb(199 12% 58%);
+#home-button{background-color: hwb(199 12% 58%);
     color: white;
     text-align: center;
-    width: 200px ;
-    height:30px;
-    border-end-end-radius: 30%;}
-    h2{text-align: center;
-    color:black;
-    }
+    width: 300px ;
+    height:50px;
+    border-end-end-radius: 30%;
+    ;}
 
-    li{text-decoration: none;
+h2{text-align: center;
+    color:black;
+    font-size: 40px;}
+    
+    li{
     color: black;
     width: 300px;
     margin:50px;
     display: inline;
-    background-position: center;}
-
-    li a{
-        text-decoration: none;
-        color: black;
-    }
-
-    .Flashcards{
-        padding-left: 40px;
-    }
-
-    .bottom-border-line{
-        border-bottom: solid;
-        color: rgb(207, 207, 207);
-        border-width: 1px;
-        width: 100%;
-    }
-
+    background-position: center;
+    font-size: x-large;
+    position: static;
+    vertical-align: middle;}
+    a{text-decoration: none;}
+    
+    .nav{display: inline-block;}
+    
+    
+li a{
+     text-decoration: none;
+    color: black;
+}
+ .Flashcards{
+    padding-left: 40px;
+}
+.bottom-border-line{
+     border-bottom: solid;
+     color: rgb(207, 207, 207);
+     border-width: 1px;
+     width: 100%;
+}
 .flashcard-type{
     vertical-align: top;
     display: inline-block;
