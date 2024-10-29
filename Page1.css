@@ -22,48 +22,33 @@ h2{text-align: center;
     a{text-decoration: none;}
     
     .nav{display: inline-block;}
-    
-    
-li a{
-     text-decoration: none;
-    color: black;
+
+    li a{
+        text-decoration: none;
+       color: black;
+   }
+
+   .bottom-border-line{
+    border-bottom: solid;
+    color: rgb(207, 207, 207);
+    border-width: 1px;
+    width: 100%;
 }
- .Flashcards{
-    padding-left: 40px;
+
+.Class-Icon{
+    width: 150px;
+    height: 150px;
+    float: left;
+
 }
-.bottom-border-line{
-     border-bottom: solid;
-     color: rgb(207, 207, 207);
-     border-width: 1px;
-     width: 100%;
-}
-.flashcard-type{
-    vertical-align: top;
-    display: inline-block;
-    text-align: left;
+
+.Class-Type{
     border-width: 1px;
     border-style: solid;
     border-radius: 10px;
     margin-left: 40px;
-    height: 300px;
-    width: 275px;
+    height: 150px;
+    width: 250px;
     border-color: rgba(230, 230, 230, 100);
     background-color: rgba(250, 250, 245, 100);
-}
-
-.Flashcard-Title{
-    padding-left: 10px;
-    line-height: 1px;
-}
-
-.Flashcard-Sub-Title{
-    padding-left: 10px;
-    line-height: 1px;
-    color: rgba(66, 107, 31, 100);
-}
-
-.Flashcard-Class-Title{
-    padding-left: 10px;
-    line-height: 1px;
-    color: rgba(109, 109, 109, 100);
 }

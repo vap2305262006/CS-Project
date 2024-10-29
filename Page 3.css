@@ -1,0 +1,24 @@
+#home-button{background-color: hwb(199 12% 58%);
+    color: white;
+    text-align: center;
+    width: 300px ;
+    height:50px;
+    border-end-end-radius: 30%;
+    ;}
+
+h2{text-align: center;
+    color:black;
+    font-size: 40px;}
+ 
+    li{
+    text-decoration: none;
+    color: black;
+    width: 300px;
+    margin:50px;
+    display: inline;
+    background-position: center;
+    font-size: x-large;
+    position: static;
+    vertical-align: middle;}
+    
+    .nav{display: inline-block;}

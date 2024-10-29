@@ -1,39 +1,58 @@
 #home-button{background-color: hwb(199 12% 58%);
 color: white;
 text-align: center;
-width: 200px ;
-height:30px;
-border-end-end-radius: 30%;}
+width: 300px ;
+height:50px;
+border-end-end-radius: 30%;
+;}
+
+
 h2{text-align: center;
 color:black;
-}
+font-size: 40px;}
+
 li{text-decoration: none;
 color: black;
 width: 300px;
 margin:50px;
 display: inline;
-background-position: center;}
-.createmiddle{margin:0 auto;
+background-position: center;
+font-size: x-large;
+position: static;
+vertical-align: middle;}
+
+.nav{display: inline-block;}
+
+.createmiddle{
+    margin:0 auto;
     display: block;
-    padding: 1%;
+    padding: 12px;
     text-align: center;
+    width: 200px;
+    height: 20px;
+    background-color: hwb(199 12% 58%);
+    text-align: center;
+    border-end-end-radius: 20%;
+    text-decoration: none;
 }
+
+#account{color:white; font-size: larger;}
 .centerimg{
     margin: 0 auto;
-    width: 65%;
+    text-align: center;
 }
 a{text-decoration: none;
 color: black;
 }
-#account{
-    color:white;
-    background-color: hwb(199 12% 58%);
-   height: 50px;
-   width: 50px;
-   text-align: center;
-    border-radius: 20%;
-    text-decoration: none;
-}
-#contact{color: white;
+
+footer{color: white;
     text-align: end;
-background-color:hwb(199 12% 58%);}
+    background-color:hwb(199 12% 58%);
+    width: 100vw;
+    height: 100px;
+    vertical-align: bottom;
+    font-size: 30px; vertical-align: middle;
+}
+
+#contact{ margin-right: 100px}
+#image-1{text-align: center;}
