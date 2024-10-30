@@ -52,6 +52,7 @@ footer{color: white;
     height: 100px;
     vertical-align: bottom;
     font-size: 30px; vertical-align: middle;
+    bottom: 0px;
 }
 
 #contact{ margin-right: 100px}
