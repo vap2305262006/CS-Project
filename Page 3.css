@@ -21,4 +21,6 @@ h2{text-align: center;
     position: static;
     vertical-align: middle;}
     
-    .nav{display: inline-block;}
+    .nav{display: inline-block;
+    text-decoration: none;
+color: black;}
