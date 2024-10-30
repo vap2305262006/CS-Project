@@ -9,9 +9,8 @@
 h2{text-align: center;
     color:black;
     font-size: 40px;}
- 
+    
     li{
-    text-decoration: none;
     color: black;
     width: 300px;
     margin:50px;
@@ -20,5 +19,36 @@ h2{text-align: center;
     font-size: x-large;
     position: static;
     vertical-align: middle;}
+    a{text-decoration: none;}
     
     .nav{display: inline-block;}
+
+    li a{
+        text-decoration: none;
+       color: black;
+   }
+
+   .bottom-border-line{
+    border-bottom: solid;
+    color: rgb(207, 207, 207);
+    border-width: 1px;
+    width: 100%;
+}
+
+.Class-Icon{
+    width: 150px;
+    height: 150px;
+    float: left;
+
+}
+
+.Class-Type{
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    margin-left: 40px;
+    height: 150px;
+    width: 250px;
+    border-color: rgba(230, 230, 230, 100);
+    background-color: rgba(250, 250, 245, 100);
+}
