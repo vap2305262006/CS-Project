@@ -57,3 +57,35 @@ footer{color: white;
 
 #contact{ margin-right: 100px}
 #image-1{text-align: center;}
+
+td:hover{background-color: white;}
+
+.todo-container{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    box-shadow: 3px 3px 10px (0, 0, 0, 0.15);
+    border-top: 5px solid hwb(199 12% 58%);
+    border-bottom: 5px solid hwb(199 12% 58%);
+}
+
+.todo-container
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.todo-value{
+    background: transparent;
+    border: none;
+    outline: none;
+    flex-grow: 1;
+}
+
+.todo:has(.todo-checkbox:checked)
+{
+color: #555;
+background-color: rgb(200, 208, 215);
+text-decoration: line-through;
+}
