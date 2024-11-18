@@ -1,0 +1,51 @@
+.login-box{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1
+{
+   text-align: center;
+   font-size: 2em; 
+}
+
+.underline{
+    width: 310px;
+    margin: 30px 0;
+    border-bottom: 2px solid rgb(52, 46, 46);
+}
+
+.labeluser{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+transform: translateY(-50%);
+}
+
+.labelpassword{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+transform: translateY(-50%);
+}
+
+input{
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 50px;
+}
+
+button:hover{
+background-color: rgb(255, 255, 255);
+}
