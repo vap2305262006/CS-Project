@@ -39,4 +39,8 @@ for (let i = 0; i < useraction.length; i++){
         //this console log is only for this specific action for flip i believe?//
         console.log(display);
     }
+    //the next function should display if action for `Next`//
+
+
+    //the next function should display if action for `Prev`//
 }
