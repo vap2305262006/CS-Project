@@ -45,8 +45,19 @@ else if ( actions === "next"){
     else {
         console.log("You are at the last card.")
     }
-}
-
-else if (action === "prev"){
     
 }
+
+else if (actions === "prev"){
+    if (currentIndex > 0){
+        showQuestion = true;
+        display = "Question: " + questions[currentIndex];
+        console.log(display);
+    }
+    else{
+        console.log("You are at the First card.");
+    
+    }
+}
+
+questions.push()
