@@ -30,5 +30,23 @@ if (actions === "flip"){
     display = showQuestion
     ? Question: " " + questions[currentIndex] ;
     "Answer: " + answers[currentIndex];
+
     console.log(display)
+}
+
+else if ( actions === "next"){
+    if (currentIndex < questions.length - 1){
+        currentIndex++;
+        showQuestion = true; 
+        display = "Question: " + questions[currentIndex];
+
+        console.log(display);
+    }
+    else {
+        console.log("You are at the last card.")
+    }
+}
+
+else if (action === "prev"){
+    
 }
