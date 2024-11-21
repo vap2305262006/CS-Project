@@ -16,5 +16,19 @@ let display = "Question: " + questions[currentIndex];
 
 console.log(display);
 
+//these actions will be used//
+let actions = ["flip", "next", "flip", "next", "prev", "flip"];
 
+//loop is from Q1 in lab 09 and previous lectures about JS//
 
+for (let i = 0; i < actions.length; i++){
+    let action = actions[i];
+}
+
+if (actions === "flip"){
+    showQuestion = showQuestion === true ? false : true;
+    display = showQuestion
+    ? Question: " " + questions[currentIndex] ;
+    "Answer: " + answers[currentIndex];
+    console.log(display)
+}
