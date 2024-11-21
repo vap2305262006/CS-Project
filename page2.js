@@ -19,3 +19,14 @@ let currentFlashcard = flashcard[index];
 let splitFlashcard = currentFlashcard.split("/");
 let display = showQuestion ? `Question: ${splitFlashcard[0]}`: `Answer: ${splitFlashcard[1]}`;
 console.log(display);
+
+//Loops can be used for navigation maybe//
+
+let useraction = [`Flip`, `Next`, `Flip`, `Prev`, `Flip`, `Next`, `Next`, `Flip`];
+for (let i = 0; i < useraction.length; i++){
+    let action = useraction[i];
+    if (action === `Flip`){
+        showQuestion = 1 - showQuestion;
+        display = showQuestion ? `Question: ${splitFlashcard[0]}` : `Answer: $`
+    }
+}
