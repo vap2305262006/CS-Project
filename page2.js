@@ -60,4 +60,13 @@ else if (actions === "prev"){
     }
 }
 
-questions.push()
+
+//Push function can be used to add new cards//
+questions.push("This is a pushed questions");
+answers.push("This answer is pushed")
+console.log("This is an added flash card. Total Cards:" + questions.length);
+
+//The pop can help remove cards//
+questions.pop();
+answers.pop();
+console.log("Removed the first flashcard. First question is now: ") + questions[0];
