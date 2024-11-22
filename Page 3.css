@@ -24,7 +24,7 @@ h2{text-align: center;
     
     .nav{display: inline-block;
     text-decoration: none;
-color: black;}
+    color: black;}
 
     .nav{display: inline-block;}
 
@@ -40,6 +40,62 @@ color: black;}
     width: 100%;
 }
 
+.header-menu{
+    height: 100px;
+    width: vw;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.MyClass{
+    padding-left: 40px;
+}
+.year-note{
+    padding-left: 40px;
+    margin: 0; 
+}
+
+#add-main-note-class{
+    color: white;
+    background-color: hwb(199 12% 58%);
+    font-size: large;
+    border: 1px solid hwb(199 12% 58%);
+    border-radius: 8px;
+    width: 120px;
+    height: 50px;
+    margin: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#add-main-note-class:hover {
+    transition: 0.25s;
+    background-color: rgb(31, 83, 107, 0.25);
+}
+#general-notes{
+    margin: 0px 40px 20px;
+    background-color: aquamarine;
+    border-radius: 8px;
+    box-shadow: 0px 10px 15px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 250px;
+    height: 150px;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#list-general-notes {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
 .Class-Icon{
     width: 150px;
     height: 150px;
@@ -50,8 +106,6 @@ color: black;}
 .Class-Type{
     border-width: 1px;
     border-style: solid;
-    border-radius: 10px;
-    margin-left: 40px;
     height: 150px;
     width: 250px;
     border-color: rgba(230, 230, 230, 100);

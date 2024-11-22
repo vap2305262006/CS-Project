@@ -24,7 +24,13 @@
     </div>
  
     <header>
-        <h1 class="MyClass">My Notes</h1> <h6>Fall 2024</h6>
+        <div class="header-menu">
+        <h1 class="MyClass">My Notes</h1> 
+        <h6 class="year-note">Fall 2024</h6>
+        <div id="add-main-note-class" onclick="popup()"> Create New
+        </div>
+    </div>
+    <br>
  </header>
 <!--Line underneath Notes-->
 <!--Line underneath Flashcards-->
@@ -35,20 +41,18 @@
 
 
 <!--These are the Notes Divs-->
-
-<div class="Class-Type">
-    <div class="Class-Icon">
-        <img src="CS104 Class Icon.png" width="70%">
-    </div>
-    <div class="Text">
-        <h4 class="Class-Title">CS 104</h4>
-        <h6 class="Link"> Notes</h6>
-    </div>
+<div id="general-notes">
+    <div class="Class-Type">
+         <div class="Class-Icon">
+             <img src="CS104 Class Icon.png" width="70%">
+        </div>
+        <div class="Text">
+             <h4 class="Class-Title">CS 104</h4>
+            <h6 class="Link"> Notes</h6>
+          </div>
 </div>
-
-
-
-
+</div>
+<script src="page3.js"></script>
 <!--This is the Footer-->
 <footer id="page-footer"><p>This is where the footer of the website will go where we can take the user back to the homepage and include contacts etc....</p></footer>
 </body>
