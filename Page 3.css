@@ -28,7 +28,7 @@ h2{text-align: center;
 
     .nav{display: inline-block;}
 
-    li a{
+    a{
         text-decoration: none;
        color: black;
    }
@@ -78,7 +78,6 @@ h2{text-align: center;
 }
 #general-notes{
     margin: 0px 40px 20px;
-    background-color: aquamarine;
     border-radius: 8px;
     box-shadow: 0px 10px 15px 10px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -96,11 +95,141 @@ h2{text-align: center;
     justify-content: left;
 }
 
+#note-general-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#lsitnote{
+    margin: 5px 0;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 9px 9px 18px #0000, -9px -9px 18px #ffff}
+
+    #li-span-note{
+        font-size: 12px;
+        flex-grow: 1;
+        word-wrap: break-word;
+        overflow-y: scroll;
+    }
+
+    #editbtn, #deletebtn{
+        background-color: hwb(199 12% 58%) ;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        margin: 0 5px;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 12px;
+        width: 60px;   
+    }
+    #editbtn {background-color: rgb(31, 83, 107);
+    }
+
+    #editbtn:hover{
+        background-color:  rgb(31, 83, 107,0.5);
+    }
+
+    #deletebtn:hover{
+        background-color:  rgb(31, 83, 107,0.5);
+    }
+    #popupContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 270px;
+    height: 170px;
+    background-color:white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px #0000;
+    padding: 20px;
+    border: radius 8px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .texterea-title{
+        width: 100px;
+        height: 50px;
+        margin: 5px;
+        box-sizing: border-box;
+        position: end;
+    }
+    .addnotebtn{
+        width: 100px;
+        height: 50px;
+        margin: 5px;
+        box-sizing: border-box;
+        position: end;
+    }
+
+    #btn-container{
+        display: flex;
+    }
+
+    #submitbtn, #closebtn {
+    width: 100px;
+    background-color:rgb(31, 83, 107);
+    color: white;
+    font-size: 14px;
+    border-radius: none;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px;
+    }
+
+    #editing-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 270px;
+            height: 170px;
+            background-color:white;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px #0000;
+            padding: 20px;
+            border: radius 8px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+    }
+
+    #submitbtn,  #closebtn {
+    width: 100px;
+    background-color:rgb(31, 83, 107);
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px;
+    }
+    
 .Class-Icon{
     width: 150px;
     height: 150px;
     float: left;
-
 }
 
 .Class-Type{
