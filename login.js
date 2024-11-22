@@ -1,4 +1,4 @@
-let people = [
+var people = [
     {
         username: VeronicaTheBeast,
         password: vp123
