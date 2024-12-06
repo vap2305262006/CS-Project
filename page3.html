@@ -7,60 +7,38 @@
     <title>Notes</title>
 </head>
 <body>
-    <div>
-        <header>
-            <nav>
-                <ul>
-                     <li><img src="welcome image.png"></li>
-                     <li><h1 id="home-button" class="nav">Study Sphere</h1></li>
-                     <li><a href="page1.html" class="nav">Classes</a></li>
-                     <li><a href="page2.html" class="nav">Flashcards</a></li>
-                     <li><a href="page3.html" class="nav">Notes</a></li>
-                     <li><a href="page4.html" class="nav">Planner</a></li>
-                     <li><a href="homepage.html">Homepage</a></li>
-                 </ul>
-            </nav>
-        </header>
-    </div>
- 
+    <header id="nav-bar">
+        <nav>
+            <ul>
+                <li><img src="welcome image.png" alt="Logo"></li>
+                <li><h1 id="home-button" class="nav">Study Sphere</h1></li>
+                <li><a href="page1.html" class="nav">Classes</a></li>
+                <li><a href="page2.html" class="nav">Flashcards</a></li>
+                <li><a href="page3.html" class="nav">Notes</a></li>
+                <li><a href="page4.html" class="nav">Planner</a></li>
+                <li><a href="homepage.html">Homepage</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <header>
         <div class="header-menu">
-        <h1 class="MyClass">My Notes</h1> 
-        <h6 class="year-note">Fall 2024</h6>
-        <div id="add-main-note-class" onclick="popup()"> Create New
+            <h1 class="MyClass">My Notes</h1> 
+            <h6 class="year-note">Fall 2024</h6>
         </div>
-    </div>
-    <br>
- </header>
-<!--Line underneath Notes-->
-<!--Line underneath Flashcards-->
-<div class="bottom-border-line">
-</div>
+    </header>
 <br>
 <br>
+    <div class="bottom-border-line"></div>
 
-
-<!--These are the Notes Divs-->
-<div id="general-notes">
-    <div class="Class-Type">
-         <div class="Class-Icon">
-             <img src="CS104 Class Icon.png" width="70%">
+    <div id="add-main-note-class" onclick="popup()">Create New</div>
+    
+    <div id="general-notes">
+        <div id="list-general-notes">
+            <ul id="note-general-list"></ul>
         </div>
-        <div class="Text">
-             <h4 class="Class-Title">CS 104</h4>
-            <h6 class="Link"> Notes</h6>
-          </div>
     </div>
-    <div id="list-general-notes ">
-        <ul id="note-general-list">
-            <li id="lsitnote">
-                <li-span id="li-span-note"></li-span>
-            </li>
-        </ul>
-    </div>
-</div>
-<script src="page3.js"></script>
-<!--This is the Footer-->
-<footer id="page-footer"><p>This is where the footer of the website will go where we can take the user back to the homepage and include contacts etc....</p></footer>
+
+    <script src="page3.js"></script>
 </body>
 </html>
