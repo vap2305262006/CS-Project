@@ -12,7 +12,7 @@ function popup() {
                 <option value="red">Red</option>
                 <option value="green">Green</option>
                 <option value="blue">Blue</option>
-                <option value="yellow">Yellow</option>
+                <option value="cian">Cian</option>
                 <option value="orange">Orange</option>
                 <option value="purple">Purple</option>
                 <option value="pink">Pink</option>
@@ -82,7 +82,7 @@ function displayNotes() {
             <div class="note-header" style="background-color: ${note.class};">
                 ${note.title}
             </div>
-             <br> </br>
+             <br>
             <span id="li-span-note">${note.text}</span>
             <div class="note-btns-container">
                 <button onclick="editNote(${note.id})">Edit Note</button>
@@ -119,7 +119,7 @@ function editNote(noteId) {
                 <option value="red" ${noteToEdit.class === "red" ? "selected" : ""}>Red</option>
                 <option value="green" ${noteToEdit.class === "green" ? "selected" : ""}>Green</option>
                 <option value="blue" ${noteToEdit.class === "blue" ? "selected" : ""}>Blue</option>
-                <option value="yellow" ${noteToEdit.class === "yellow" ? "selected" : ""}>Yellow</option>
+                <option value="cian" ${noteToEdit.class === "cian" ? "selected" : ""}>Cian</option>
                 <option value="orange" ${noteToEdit.class === "orange" ? "selected" : ""}>Orange</option>
                 <option value="purple" ${noteToEdit.class === "purple" ? "selected" : ""}>Purple</option>
                 <option value="pink" ${noteToEdit.class === "pink" ? "selected" : ""}>Pink</option>

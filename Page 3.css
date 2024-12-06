@@ -68,11 +68,11 @@ h2{text-align: center;
 #add-main-note-class {
     color: white;
     background-color: hwb(199 12% 58%);
-    font-size: large;
+    font-size: x-large;
     border: 1px solid hwb(199 12% 58%);
     border-radius: 8px;
-    width: 120px;
-    height: 50px;
+    width: 150px;
+    height: 70px;
     margin: 40px;
     cursor: pointer;
     display: flex;
@@ -114,7 +114,7 @@ h2{text-align: center;
     box-shadow: 9px 9px 18px rgba(0, 0, 0, 0.2), -9px -9px 18px rgba(255, 255, 255, 0.2);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     overflow-y: scroll;
 }
 
@@ -130,7 +130,7 @@ h2{text-align: center;
 
 #li-span-note {
     text-align: left;
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 5px;
 }
 
@@ -141,8 +141,8 @@ h2{text-align: center;
 
 .note-btns-container {
     display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
+    justify-content: space-evenly;
+    margin-top: 5px;
 }
 
 .note-btns-container button {
@@ -159,14 +159,13 @@ h2{text-align: center;
     background-color: rgb(31, 83, 107, 0.5);
 }
 
-/* Popup Styles */
 #popupContainer {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 700px;
-    height: 600px;
+    height: 700px;
     background-color: white;
     border: 1px solid #ccc;
     box-shadow: 0px 10px 15px 10px rgba(0, 0, 0, 0.2);
@@ -207,7 +206,7 @@ h2{text-align: center;
 }
 
 #submitbtn, #closebtn {
-    width: 100px;
+    width: 150px;
     height: 40px;
     background-color: rgb(31, 83, 107);
     color: white;
