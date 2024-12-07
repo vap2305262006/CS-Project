@@ -67,7 +67,7 @@ function createNote() {
     }
 }
 
-// Function to display all notes
+// Function to display 
 function displayNotes() {
     const notesList = document.getElementById('note-general-list');
     notesList.innerHTML = '';
@@ -106,7 +106,6 @@ function editNote(noteId) {
     const notes = JSON.parse(localStorage.getItem('notes')) || [];
     const noteToEdit = notes.find(note => note.id === noteId);
 
-    // Open the popup with pre-filled values
     const popupContainer = document.createElement("div");
 
     popupContainer.innerHTML = `
@@ -148,7 +147,6 @@ function updateNote(noteId) {
         let notes = JSON.parse(localStorage.getItem('notes')) || [];
         const noteIndex = notes.findIndex(note => note.id === noteId);
         
-        // Update note with new values
         if (noteIndex !== -1) {
             notes[noteIndex] = {
                 id: noteId,
@@ -165,5 +163,5 @@ function updateNote(noteId) {
     }
 }
 
-// Initial display of notes when the page loads
+
 window.onload = displayNotes;
