@@ -45,14 +45,42 @@ a{text-decoration: none;
 color: black;
 }
 
-footer{color: white;
-    text-align: end;
-    background-color:hwb(199 12% 58%);
-    width: 100vw;
-    height: 100px;
-    vertical-align: bottom;
-    font-size: 30px; vertical-align: middle;
-    bottom: 0px;
+
+footer{
+    background-color: rgb(74, 72, 72);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
 }
 
 #contact{ margin-right: 100px}
