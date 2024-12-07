@@ -44,6 +44,7 @@ li a{
     border-width: 1px;
     border-style: solid;
     border-radius: 10px;
+    margin-top: 40px;
     margin-left: 40px;
     height: 300px;
     width: 275px;
@@ -118,13 +119,17 @@ button{
 .popup-content input{
     padding: 10px;
     margin: 5px 0;
-    width: 100%;
+    width: 70%;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
 .popup-content button{
-    width: 100%;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
 }
+
+
 
