@@ -4,27 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="createaccount.css">
 </head>
 <body style="text-align: center; margin-top:20%;">
-    <h1>Sign Up</h1>
-    <form action="login">
-        <div><input type="text" placeholder="Username" required>
-        </div>
-        <div>
-            <input type="password" placeholder="Password" required>
-        </div>
-        <div>
-            <input type="password" placeholder="Confirm Password" required>
-        </div>
-        <div>
-            <label for="remember">
-                <input type="checkbox"> Remember me
-            </label>
-        </div>
-        <div>
-            <button type="submit" class="btn">Login
-            </button>
-        </div>
-    </form>
-</body>
+    <div class="login-box">
+        <h1>Sign Up</h1>
+        <form action="homepage.html">
+            <div class="underline">
+                <input class="uname" type="text" placeholder="Username" required>
+                <label class="labeluser" for="user"></label>
+            </div>
+            <div class="underline">
+                <input class="pname" type="password" placeholder="Password" required>
+                <label class="labelpassword" for="password"></label>
+            </div>
+            <div class="underline">
+                <input class="pname" type="password" placeholder="Confirm Password" required>
+                <label class="labelpassword" for="password"></label>
+            </div>
+            <div>
+                <label for="remember">
+                    <input type="checkbox"> Remember me
+                </label>
+            </div>
+            <div>
+                <button type="submit" class="btn">Login
+                </button>
+            </div>
+        </form>
+        <script src="login.js"></script>
+    </body>
+    </div>
 </html>
